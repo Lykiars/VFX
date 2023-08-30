@@ -1439,24 +1439,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startSize.scalar
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0
+      value: 0.84313726
       objectReference: {fileID: 0}
     - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0
+      value: 0.21568628
       objectReference: {fileID: 0}
     - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
+      value: 0.7529412
       objectReference: {fileID: 0}
     - target: {fileID: 1767355720808174074, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: m_RootOrder
@@ -1502,25 +1494,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4761281524587502976, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.84313726
-      objectReference: {fileID: 0}
-    - target: {fileID: 4761281524587502976, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.21568628
-      objectReference: {fileID: 0}
-    - target: {fileID: 4761281524587502976, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.7529412
-      objectReference: {fileID: 0}
     - target: {fileID: 8035647343332736841, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: m_Name
       value: vfx_AreaOfEffect_v1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8916960406065401699, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
