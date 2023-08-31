@@ -762,7 +762,7 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
-  clearColorMode: 0
+  clearColorMode: 2
   backgroundColorHDR: {r: 0.025, g: 0.07, b: 0.19, a: 0}
   clearDepth: 1
   volumeLayerMask:
@@ -1357,6 +1357,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8aec75a4bb2f794b9ff371bbf9091b7, type: 3}
+--- !u!1001 &6779338721466116843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3300123730382255157, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_Name
+      value: vfx_AreaOfEffect_Fire_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6543403743837903494, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8f292b5df799aa469ad6550c71da984, type: 3}
 --- !u!1001 &6924412142812710215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1438,18 +1495,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.84313726
-      objectReference: {fileID: 0}
-    - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.21568628
-      objectReference: {fileID: 0}
-    - target: {fileID: 986330603568684023, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.7529412
-      objectReference: {fileID: 0}
     - target: {fileID: 1767355720808174074, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1496,7 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8035647343332736841, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
       propertyPath: m_Name
-      value: vfx_AreaOfEffect_v1
+      value: vfx_AreaOfEffect_Arcane_v1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 927e47ab9719b854f9db1794cb0890a9, type: 3}
