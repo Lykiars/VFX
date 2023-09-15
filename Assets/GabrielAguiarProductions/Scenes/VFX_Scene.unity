@@ -1709,10 +1709,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: vfx_Projectile_v1
       objectReference: {fileID: 0}
-    - target: {fileID: 1249749982870055330, guid: 1630989205164284e9ffd6da6cd8ba9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7992298877352705616, guid: 1630989205164284e9ffd6da6cd8ba9b, type: 3}
       propertyPath: m_RootOrder
       value: 7
