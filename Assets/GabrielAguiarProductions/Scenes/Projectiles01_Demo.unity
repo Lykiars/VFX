@@ -1328,7 +1328,7 @@ MonoBehaviour:
   firePoint: {fileID: 1634547353}
   cameras: {fileID: 878620400}
   VFXs:
-  - {fileID: 1249749982870055330, guid: 1630989205164284e9ffd6da6cd8ba9b, type: 3}
+  - {fileID: 7349158175038569896, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
 --- !u!1 &481500360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,7 +1801,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -1836,7 +1836,7 @@ GameObject:
   - component: {fileID: 839350583}
   - component: {fileID: 839350582}
   - component: {fileID: 839350580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VFX_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2010,7 +2010,7 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1024
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2443,7 +2443,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 2400
+  m_Intensity: 31486.682
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -2557,7 +2557,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.94918805, b: 0.8392157, a: 1}
-  m_Intensity: 190.98593
+  m_Intensity: 2505.6304
   m_Range: 20
   m_SpotAngle: 140
   m_InnerSpotAngle: 1
@@ -2598,11 +2598,11 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.6927021e+22, y: NaN, z: 0, w: 1.1e-44}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 6.7e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -3100,7 +3100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1927121404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3477,3 +3477,64 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &5241951075395732696
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895784456511138394, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349158175038569896, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_Name
+      value: vfx_Projectile_Electric_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349158175038569896, guid: 4b908225b9795f149a26cab77c74b099, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b908225b9795f149a26cab77c74b099, type: 3}

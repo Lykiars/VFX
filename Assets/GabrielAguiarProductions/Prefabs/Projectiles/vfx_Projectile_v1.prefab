@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -8604098858341712608}
   - component: {fileID: 5252898885717573431}
   - component: {fileID: 2721810583990041171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: vfx_Projectile_v1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,8 +81,8 @@ MonoBehaviour:
   speed: 15
   accuracy: 100
   fireRate: 1
-  muzzlePrefab: {fileID: 0}
-  hitPrefab: {fileID: 0}
+  muzzlePrefab: {fileID: 4279401174912865284, guid: db69d7141ee235042927ca1e97f63352, type: 3}
+  hitPrefab: {fileID: 5069324188760191378, guid: c9bce74541289ba4a804ecf2f991656f, type: 3}
   shotSFX: {fileID: 0}
   hitSFX: {fileID: 0}
   trails:
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 486834264157735365}
   - component: {fileID: 7972230049122022612}
   - component: {fileID: 4286977307309888494}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4903,7 +4903,7 @@ GameObject:
   - component: {fileID: 8455339744101599045}
   - component: {fileID: 5396449035969096380}
   - component: {fileID: 3729949526365313351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ProjectileOut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9708,7 +9708,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 306d0b3e867bae54e9ac54b969187458, type: 2}
+  - {fileID: 2100000, guid: f8a5050c411fabe4cb399e80be31195c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9764,7 +9764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4116175960439466157}
   - component: {fileID: 468015000762539367}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9903,7 +9903,7 @@ GameObject:
   - component: {fileID: 5025289485159935480}
   - component: {fileID: 2993202465549523808}
   - component: {fileID: 983404401809536054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ProjectileIn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
